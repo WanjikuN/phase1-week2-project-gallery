@@ -1,0 +1,20 @@
+#imageContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    box-shadow: 100px rgb(214, 61, 61);
+
+}
+.card{
+    height: 200px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+.card img{
+    width: 150px
+}
